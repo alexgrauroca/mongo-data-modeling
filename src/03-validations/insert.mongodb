@@ -3,6 +3,5 @@ use("platzi_store")
 db.users.insertOne({
     email: "test@test.test",
     password: "laisjdliajsdliajdslijalidsjalidsjailjsdl",
-    name: "a",
-    last_name: "a"
+    role: "admin"
 })
