@@ -13,5 +13,8 @@ db.stores.aggregate([
             foreignField: 'storeId',
             as: 'detail'
         }
+    },
+    {
+        $unwind: '$detail'
     }
 ])
